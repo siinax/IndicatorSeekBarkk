@@ -22,11 +22,18 @@ This is a customizable SeekBar library on Android. Also, If you don't need indic
  Scan QR code to download:
 <img src="https://github.com/warkiz/IndicatorSeekBar/blob/master/gif/downloadQRcode.png?raw=true" width = "100" height = "100"/>
 
-
+[![](https://www.jitpack.io/v/siinax/IndicatorSeekBarkk.svg)](https://www.jitpack.io/#siinax/IndicatorSeekBarkk)
 ## Setup
-
 ```gradle
-implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+```
+```gradle
+implementation 'com.github.siinax:IndicatorSeekBarkk:Tag'
 ```
 
 ## Usage
